@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "openai-realtime-api-app"
+version = "0.1.0"
+description = ""
+authors = ["dhruvil237 <dhruvilpatel2372002@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+websockets = "^13.1"
+pydub = "^0.25.1"
+pyautogui = "^0.9.54"
+pyaudio = "^0.2.14"
+python-dotenv = "^1.0.1"
+pillow = "^10.4.0"
+ffmpeg-downloader = "^0.3.0"
+numpy = "^2.1.2"
+websocket-client = "^1.8.0"
+openai = "^1.52.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
